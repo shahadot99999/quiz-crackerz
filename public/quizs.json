@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "React",
+        "logo": "https://live.staticflickr.com/65535/52413593240_e00326e727_o.png",
+        "total": 8
+    },
+    {
+        "id": 2,
+        "name": "JavaScript",
+        "logo": "https://live.staticflickr.com/65535/52412638962_12e932256a_o.png",
+        "total": 9
+    },
+    {
+        "id": 4,
+        "name": "CSS",
+        "logo": "https://live.staticflickr.com/65535/52413665713_5977a693cb_o.png",
+        "total": 8
+    },
+    {
+        "id": 5,
+        "name": "Git",
+        "logo": "https://cdn-icons-png.flaticon.com/512/52/52234.png?w=740&t=st=1665434310~exp=1665434910~hmac=6b6559b40db22ed903296f6b81e8893d77ed93e55aaa7c5154e6623ced4a4f3d",
+        "total": 11
+    }
+]

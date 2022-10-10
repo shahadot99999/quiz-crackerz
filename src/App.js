@@ -1,8 +1,10 @@
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
+import Blog from './components/Blog/Blog';
 import Home from './components/Home/Home';
 import Quizs from './components/Quizs/Quizs';
+import Statistics from './components/Statistics/Statistics';
 import Main from './layouts/Main';
 
 function App() {
@@ -12,11 +14,20 @@ function App() {
       element: <Main></Main>,
       children: [{
         path: '/',
+        loader: () => fetch('quizs.json'),
         element: <Home></Home>
       },
       {
         path: '/quizs',
         element: <Quizs></Quizs>
+      },
+      {
+        path: '/statistics',
+        element: <Statistics></Statistics>
+      },
+      {
+        path: '/blog',
+        element: <Blog></Blog>
       }
       ]
     }
@@ -29,3 +40,4 @@ function App() {
 }
 
 export default App;
+//
