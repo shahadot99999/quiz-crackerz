@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 
 const Quiz = ({ quiz }) => {
     const { logo, name } = quiz;
+
+    const [show, setShow] = useState()
     return (
         <div className='all-container'>
             <div>
@@ -11,7 +13,11 @@ const Quiz = ({ quiz }) => {
 
             <div className='text-container'>
                 <h3>{name}</h3>
-                <button>Start Practice</button>
+                {
+                    show && <p>what is react?
+                        what is react router provider? </p>
+                }
+                <button onClick={() => setShow(!show)}>Start Practice</button>
             </div>
         </div>
     );

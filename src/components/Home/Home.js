@@ -6,6 +6,7 @@ import './Home.css'
 const Home = () => {
     const quizs = useLoaderData();
     return (
+
         <div className='s-container'>
             <div className='p-container'>
                 {
