@@ -1,13 +1,14 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import Option from '../Option/Option';
+
 
 const Quizs = () => {
     const options = useLoaderData().data;
-    console.log(options);
+    // console.log(options);
+    const { id } = options
     return (
         <div>
-            <h2>This is  quiz page. {options.question}</h2>
+            <h2>This is  quiz page.:{id}</h2>
         </div>
     );
 };
