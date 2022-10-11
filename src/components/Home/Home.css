@@ -1,6 +1,7 @@
 .s-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
+
 }
 
 .p-container {
@@ -8,6 +9,8 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin: 100px 50px;
+
+
 }
 
 .s-container img {
